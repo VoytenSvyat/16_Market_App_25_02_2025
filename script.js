@@ -207,7 +207,7 @@ function addProductToDom(item) {
     </span>
     <button class="btn btn-info" onclick="stock.removeItem('${item.name}', ${1})">-</button>
     <button id="plusBtn-${item.name}" class="btn btn-success">+</button>
-    <button id="deleteBtn-${item.name}" class="btn btn-danger" onclick="stock.removeItem('${item.name}', ${item.quantity})">Delete</button>
+    <button id="deleteBtn-${item.name}" class="btn btn-danger">Delete</button>
   `;
   productsList.appendChild(li);
 
